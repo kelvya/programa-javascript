@@ -1,0 +1,104 @@
+.bg_mapa {
+  font-family: "Roboto", sans-serif;
+  background-image: url(../../images/mapa-aqua.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.box_padrao {
+  background-color: #ffffff;
+  color: #505053;
+  border: solid white 2px;
+  border-radius: 15px;
+  box-shadow: 10px 15px 5px #1d143a;
+  padding: 30px;
+  margin: 60px auto 0 auto;
+  width: 60%;
+}
+
+.box-mensagem {
+  width: 90%;
+  margin: 0 0 30px 0;
+  box-shadow: 1px 1px 8px 2px #1d143a inset;
+  border-radius: 0px;
+  padding: 10px 15px;
+  color: #505053;
+}
+
+.btn {
+  border-radius: 15px;
+  width: 30%;
+  height: 30px;
+  background-color: #307474;
+  color: #f7f1f1;
+  border: none;
+  box-shadow: 1px 1px 8px 2px #0f2424 inset;
+}
+.btn:hover {
+  background-color: #558383;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.9);
+}
+
+.pais_titulo {
+  font-size: larger;
+  font-weight: bold;
+  color: #505053;
+}
+
+.pais_curiosidade {
+  font-size: small;
+  font-weight: bold;
+  color: #505053;
+  text-align: justify;
+}
+
+.pais_contagem {
+  color: #307474;
+  font-size: small;
+  font-weight: bold;
+  color: 15500000e;
+}
+
+.hide {
+  display: none;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.posicao {
+  margin: auto auto 30% 30%;
+}
+
+@media (max-width: 950px) {
+  .bg_mapa {
+    background-position: -20px;
+  }
+}
+@media (max-width: 800px) {
+  .bg_mapa {
+    background-position: -50px;
+  }
+}
+@media (max-width: 700px) {
+  .bg_mapa {
+    background-position: -100px;
+  }
+}
+@media (max-width: 400px) {
+  .bg_mapa {
+    background-position: -200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

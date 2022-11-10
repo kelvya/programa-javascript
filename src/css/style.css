@@ -1,6 +1,6 @@
 .bg_mapa {
   font-family: "Roboto", sans-serif;
-  background-image: url(/images/mapa-aqua.png);
+  background-image: url(./images/mapa-aqua.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
